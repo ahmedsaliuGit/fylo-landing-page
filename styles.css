@@ -171,13 +171,12 @@ a {
   color: hsl(0, 0%, 100%);
 }
 
-.feature-single__link > img {
+.feature-single__link > svg {
   margin-left: 0.5em;
-  color: hsl(176, 68%, 64%);
 }
 
-.feature-single__link:hover > img {
-  filter: brightness(100%) contrast(10%);
+.feature-single__link:hover > svg use {
+  fill: hsl(0, 0%, 100%);
 }
 
 .feedback-bg {
